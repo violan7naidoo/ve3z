@@ -109,7 +109,7 @@
      * color-2(#eb5e55)
      * color-3(#f2d0a4)
      */
-    --color-1: rgb(143, 58, 240);
+    --color-1: hsla(345, 93%, 44%, 1);
     --color-2: hsla(4, 79%, 63%, 1);
     --color-3: hsla(34, 75%, 80%, 1);
 
@@ -3486,7 +3486,7 @@ input::-moz-focus-inner {
 }
 
 .s-hero__bg {
-    background-image: url(../images/hero-bg1.jpg);
+    background-image: url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3494,7 +3494,7 @@ input::-moz-focus-inner {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 36.5vw;
 }
 
 .s-hero__bg::after {
